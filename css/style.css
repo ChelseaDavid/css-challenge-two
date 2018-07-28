@@ -1,6 +1,15 @@
 /*****************************************************
 * CSS Mockup Activity - Custom CSS Stylesheet
 * @author cryan17
+/*****************************************************
+* ADD YOUR OWN CSS BELOW! (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧
+*
+* HINT: You might want to be conversant with the following:
+* * Shorthand syntax for padding, margin, and borders
+* * Display property and values... and the differences between them.
+* * The Box Model
+* * Pseudo Classes
+* * Attribute Selectors
 ******************************************************/
 
 
@@ -32,14 +41,11 @@ header h1 {
 	padding-left: 5rem;
 }
 
+/*******************************************************
+WELCOME IMG
+ *******************************************************/
 
-/*****************************************************
-* ADD YOUR OWN CSS BELOW! (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧
-*
-* HINT: You might want to be conversant with the following:
-* * Shorthand syntax for padding, margin, and borders
-* * Display property and values... and the differences between them.
-* * The Box Model
-* * Pseudo Classes
-* * Attribute Selectors
-******************************************************/
+img[alt="welcome to my homepage"] {
+	display: block;
+	margin: 0 auto 2rem;
+}
