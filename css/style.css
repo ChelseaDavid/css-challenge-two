@@ -1,0 +1,45 @@
+/*****************************************************
+* CSS Mockup Activity - Custom CSS Stylesheet
+* @author cryan17
+******************************************************/
+
+
+
+/*****************************************************
+Sets the font-family and padding for the entire page
+ *****************************************************/
+
+body {
+	font-family: "lucida console", Monaco, monospace;
+}
+section {
+	padding: 1.5rem;
+}
+
+/*****************************************************
+Sets the rules for header
+ *****************************************************/
+
+header {
+	background-color: #333;
+	color: lime;
+}
+
+header h1 {
+	display: inline-block;
+	margin-right: 1.5rem;
+	font-size: 2.5rem;
+	padding-left: 5rem;
+}
+
+
+/*****************************************************
+* ADD YOUR OWN CSS BELOW! (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧
+*
+* HINT: You might want to be conversant with the following:
+* * Shorthand syntax for padding, margin, and borders
+* * Display property and values... and the differences between them.
+* * The Box Model
+* * Pseudo Classes
+* * Attribute Selectors
+******************************************************/
