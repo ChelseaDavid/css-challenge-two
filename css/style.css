@@ -75,5 +75,25 @@ INSTRUCTIONS
 }
 
 /*******************************************************
+ABOUT ME
+ *******************************************************/
+
+.about-me {
+	background-color: blue;
+	color: #FFF;
+}
+
+.about-me img {
+	width: 300px;
+	float: left;margin-right: 2rem;
+	border: 3px solid white;
+}
+
+.about-me p span {
+	color: yellow;
+	font-style: italic;
+}
+
+/*******************************************************
 
  *******************************************************/
