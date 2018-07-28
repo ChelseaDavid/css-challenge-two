@@ -15,7 +15,7 @@
 
 
 /*****************************************************
-Sets the font-family and padding for the entire page
+WHOLE PAGE RULE
  *****************************************************/
 
 body {
@@ -26,7 +26,7 @@ section {
 }
 
 /*****************************************************
-Sets the rules for header
+HEADER
  *****************************************************/
 
 header {
@@ -49,3 +49,31 @@ img[alt="welcome to my homepage"] {
 	display: block;
 	margin: 0 auto 2rem;
 }
+
+/*******************************************************
+INSTRUCTIONS
+ *******************************************************/
+
+.instructions-wrapper {
+	display: flex;
+	border: 3px solid black;
+	padding: 20px;
+	align-items: flex-start;
+}
+
+.instructions-content {
+	flex: 1;
+	padding-right: 2rem;
+}
+
+.instructions-wrapper h2 {
+	margin-top: 0;
+}
+
+.instructions-wrapper img {
+	width: 250px;
+}
+
+/*******************************************************
+
+ *******************************************************/
